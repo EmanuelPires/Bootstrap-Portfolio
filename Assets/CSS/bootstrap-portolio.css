@@ -1,42 +1,48 @@
-* {
-  box-sizing: border-box;
-}
-p {
-  margin-left: 10px;
+.aboutMe {
+  margin-top: 20px;
 }
 
-.bickground {
-  margin-top: 30px;
+#brand {
+  color: lightsalmon;
+  letter-spacing: 3px;
 }
+
+.nav-link:hover {
+  color: lightsalmon !important;
+}
+.pagePics {
+  height: 152px;
+  float: left;
+  margin-right: 20px;
+}
+
+a:hover {
+  color: lightsalmon;
+  text-decoration: none;
+}
+
 footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  padding-top: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
   background-color: grey;
+  text-align: center;
+  font-size: 11px;
 }
 
-.portpic {
-  width: 200px;
-  height: 150px;
-  margin: 30px 0px 80px 0px;
+.img-thumbnail {
+  width: 280px !important;
 }
-.piccontainer {
-  margin: 0;
-  padding: 0;
-}
-.Labels {
-  background-color: black;
-  position: absolute;
-  left: 15px;
-  bottom: 80px;
 
-  max-width: 200px;
-  color: white;
+h2 {
+  margin: 20px 0 20px 0;
 }
-.mepic {
-  width: 250px;
-  padding-left: 10px;
-  margin: 5px 10px 5px 0px;
+
+@media (max-width: 575.98px) {
+  h2 {
+    text-align: center;
+  }
 }
